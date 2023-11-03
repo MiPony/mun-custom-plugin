@@ -1,0 +1,73 @@
+/* 
+Theme Name: Hello Municipal Backflow
+Theme URI: #
+Description: MBF Child Theme
+Author: fAlcO
+Author URI: #
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: hello-elementor-child-mbf
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/*
+   custom styles fgs
+*/
+
+/* //NEXT BUTTONS */
+body #gform_wrapper_4 .gform_body .gform_page_footer .gform_next_button {
+border: 1px solid black;
+display: inline-block;
+/* width: 100px; */
+background-color: var( --e-global-color-primary );
+color: var( --e-global-color-05771f9 );
+border-style: solid;
+border-color: var( --e-global-color-primary );
+text-transform: uppercase;
+padding: 10px;
+box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.5);
+}
+
+/* //PREVIOUS BUTTONS */
+body #gform_wrapper_4 .gform_body .gform_page_footer .gform_previous_button {
+border: 1px solid black;
+display: inline-block;
+/* width: 100px; */
+background-color: var( --e-global-color-primary );
+color: var( --e-global-color-05771f9 );
+border-style: solid;
+border-color: var( --e-global-color-primary );
+text-transform: uppercase;
+padding: 10px;
+box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.5);
+}
+
+/* // SUBMIT BUTTON */
+body #gform_wrapper_4 .gform_body .gform_page_footer .gform_button {
+border: 1px solid black;
+display: inline-block;
+/* width: 100px; */
+background-color: var( --e-global-color-primary );
+color: var( --e-global-color-05771f9 );
+border-style: solid;
+border-color: var( --e-global-color-primary );
+text-transform: uppercase;
+padding: 10px;
+box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.5);
+}
+
+
+.gform_wrapper.gravity-theme .gfield_label {
+    text-transform: uppercase;
+}
+
+.popclick.span {
+	text-transform: uppercase;
+}
+
+.elementor-alert .elementor-alert-description-res-alert {
+    font-size: 16px;
+}
+

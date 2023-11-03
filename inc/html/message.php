@@ -1,0 +1,13 @@
+<div class="message__box" style="display:none">
+    <!-- <div class="message__success">Congratulations, we found you data in the database and you successfully qualified for auto scheduling from the site..</div> -->
+    <div class="massage__error">Sorry, we couldn't find your data in the database. Fill in the form below.</br>That email wasn't found in a system, please try to use different email and/or CID number if you have one.</div>
+    <div class="massage__error__no_date">Sorry, there are no suitable dates available. Submit a form below to send an email to us, we will call you back then.</div>
+    <div class="massage__error__server_busy">Sorry, server is busy at the moment. Submit a form below to send an email to us, we will call you back then.</div>
+    <div class="massage__error__many_devices">Sorry, you have too many devices to complete the form automatically. Submit a form below to send an email to us, we will call you back then.</div>
+    <div class="massage__error__no_devices">We found your data in the database, but we do not have data on devices, so, unfortunately, we cannot offer you auto-scheduling. Please fill out the form and our managers will contact you</div>
+    <div class="massage__error__due_date_expired">We found your data in the database, but your due date has expired. Unfortunately, we cannot offer you auto-scheduling at this time. Please fill out the form and our staff will contact you to determine if we are able to apply for an extension with your city.</div>
+    <div class="massage__error__due_dates_diff_exceed">Sorry we can't allow auto-scheduling to you because several of your devices have two may different due dates. Please call the office to schedule 312-638-9878. Thank you!</div>
+    <div class="massage__error__due_date_falls">Your due date falls before the date that you provided. This could be from scheduling too late or not knowing when it was due. Please contact the office to determine if we can apply for an extension with your city.</div>
+    <div class="massage__error__wo_exists_in_past">Looks like you already have WO in progress, so we could not allow you create another one. If this is not the case, please fill out the form and we will contact you.</div>
+    <div class="massage__error__operational_hours">Sorry we could not allow you to auto-schedule due to your hours of operation. Please let us know in the additional comments below the best way to contact you to get your appointment scheduled.</div>
+</div>
